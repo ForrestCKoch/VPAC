@@ -4,7 +4,7 @@ import numpy as np
 from numpy import transpose as tr
 from numpy.linalg import inv
 from scipy.linalg import pinvh
-from scipy.misc import logsumexp
+from scipy.special import logsumexp
 from scipy.special import psi, gammaln
 from sklearn.utils import check_array
 from sklearn.cluster import KMeans
